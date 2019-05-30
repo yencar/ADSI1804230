@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+
+	<title>Reto Responsive</title>
+	<style>
+
+	main {
+		border: 2px solid red;
+		margin:20px auto;
+		padding: 15px;
+		width: 1080px;
+		height: 1150px;
+	}
+
+		header div.logo {
+		background:  url(imgs/putologodemrda.gif) no-repeat center;
+		height: 240px;
+	}
+	@media (max-width: 1024px) {
+		header div.logo {
+		background:  url(imgs/tigger.jpg) no-repeat center;
+		height: 240px;
+	}
+}
+
+@media (max-width: 720px) {
+
+	header div.logo {
+		background:  url(imgs/) no-repeat center;
+		height: 240px;
+	}
+}
+
+	section div:nth-child(1n) {
+		background: url(imgs/yenny.jpg)no-repeat center;
+		border: 2px solid purple;
+		display: inline-block;
+		background-size: cover;
+		height: 240px;
+		margin-right: 20px;
+		position: relative;
+		width: 240px;
+	}
+
+	section div:nth-child(2n) {
+		background: url(imgs/malditahormiga.png)no-repeat center;
+		border: 2px solid red;
+		display: inline-block;
+		background-size: cover;
+		height: 240px;
+		margin-right: 20px;
+		position: relative;
+		width: 240px;
+	}
+	section div first-child {
+		margin-left: 20px;
+	}
+	section div first-child {
+		margin-right: 20px;
+	}
+	section div p {
+		background: rgba(0, 0, 0, .6); 
+		color: rgba(white);
+		bottom: 0px;
+		margin: 0px;
+		padding: 20px;
+		position: absolute;
+		width: 200px;	
+	}
+	section.cajapeque {
+		border: 2px solid gray;
+		background-size: contain;
+		background: url(imgs/pooh.jpg)no-repeat center;
+		width: 300px;
+		height: 300px;
+		margin-bottom: 20px;
+
+
+	}
+	article div.imagen1 p {
+		width: 600px;
+		height: 200px;
+		margin-left: 360px;
+		margin-top: -300px;
+		border:2px solid aqua;
+
+	}
+
+	section.cajapeque1 {
+		border: 2px solid gray;
+		background-size: contain;
+		background: url(imgs/Igor.jpg)no-repeat center;
+		width: 300px;
+		height: 300px;
+		margin-top: 100px;
+
+
+
+	}
+	article div.imagen2 p {
+		width: 600px;
+		height: 200px;
+		margin-left: 360px;
+		margin-top: -300px;
+		border:2px solid aqua;
+
+	}
+	</style>
+</head>
+<body>
+	<main>
+		<header>
+			<div class="logo"></div>
+			<section> 
+			<div class="caja1">
+			<p>texto</p>
+			</div>
+			<div class="caja2">
+			<p>texto</p>
+			</div>
+			<div class="caja3">
+			<p>texto</p>
+			</div>
+			<div class="caja4">
+			<p>texto</p>
+			</div>
+		</section>
+
+		</header>
+		<section class="cajapeque"></section>
+			<article>
+			<div class="imagen1">
+			<p class="texto1">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos obcaecati soluta facilis at sapiente voluptatem voluptas velit, blanditiis enim harum numquam quia consectetur nobis, culpa voluptate dignissimos porro? Ipsam magnam porro, soluta voluptatem reprehenderit ea quia ratione. Itaque magnam eveniet placeat vel laudantium esse aperiam inventore, debitis adipisci dolore, minima est tenetur id praesentium doloremque fuga delectus voluptate, quaerat minus repellendus facilis cupiditate atque. Ab aut quas voluptatem magni doloribus molestias, et obcaecati incidunt optio debitis eius, possimus omnis dolore?</p>
+			</div>
+			</article>
+
+			<section class="cajapeque1"></section>
+			<article>
+			<div class="imagen2">
+			<p class="texto2">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos obcaecati soluta facilis at sapiente voluptatem voluptas velit, blanditiis enim harum numquam quia consectetur nobis, culpa voluptate dignissimos porro? Ipsam magnam porro, soluta voluptatem reprehenderit ea quia ratione. Itaque magnam eveniet placeat vel laudantium esse aperiam inventore, debitis adipisci dolore, minima est tenetur id praesentium doloremque fuga delectus voluptate, quaerat minus repellendus facilis cupiditate atque. Ab aut quas voluptatem magni doloribus molestias, et obcaecati incidunt optio debitis eius, possimus omnis dolore?</p>
+			</div>
+			</article>
+	</main>
+</body>
+</html>

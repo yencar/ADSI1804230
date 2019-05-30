@@ -1,0 +1,174 @@
+section.cajapadre div {
+			border: 2px solid red;
+			margin: 5px;
+			padding: 20px;
+			background-color: yellow;
+}
+section.cajapadre {
+			margin: 0px auto;
+			width: 800px;
+			text-align: center;
+		} 
+div.cajapeque{
+	padding: 1px;
+	display: inline-block;
+	width: 60px;
+	color: red;
+}
+.contenido {
+	border: 2px solid yellow;
+	text-align: center;
+	padding: 20px;
+}
+h1 {
+	color: yellow;
+}
+.contenido {
+	color: aqua;
+}
+div.caja {
+			border: 2px solid gray;
+			height: 150px;
+			display: inline-block;
+			vertical-align: top;
+			width: 200px;
+}
+div.cajaimg1 {
+	height: 200px;
+	width: 250px;
+	float: left;
+	padding: 5px;
+	background-color: white;
+	background-image: url(../imgs/spriteweb.png);
+	
+}
+div.cajaimg2 {
+	height: 150px;
+	width: 150px;
+	float: center;
+	padding: 5px;
+	background-position: left;
+	border-radius: 0px 0px 20px 20px;
+	background-color: white;
+	background-image: url(../imgs/spriteweb.png);
+	background-position: -55px -210px;
+}
+div.cajaimg3 {
+	height: 70px;
+	width: 70px;
+	padding: 5px;
+	float: left;
+	background-color: white;
+	background-image: url(../imgs/spriteweb.png);
+	border-radius: 20px 0px 20px 0px;
+	margin-left: 1em;
+	margin-top: 8em;
+	text-align: left;
+	background-position: -296px -500px;
+
+}
+div.cajaimg4 {
+	height: 150px;
+	width: 190px;	
+	float: left;
+	background-color: white;
+	background-image: url(../imgs/spriteweb.png);
+	border: 4px solid aqua;
+	border-radius: 20px 20px 20px 20px;
+	margin-left: 50em;
+	margin-top: -11em;
+	background-position: -9px 175px;
+}
+div.cjc {
+	border: 2px solid red;
+	margin: 0px auto;
+	height: 300px;
+	padding: 100px;
+	background-color: #4AD513;
+}
+div.cajaimg5 {
+	height: 150px;
+	width: 300px;
+	padding: 5px;
+	float: right;
+	margin: 0px 0px 15px 15px;
+	background-color: white;
+	background-image: url(../imgs/spriteweb.png);
+	border-radius:  0px 20px 0px 20px;
+	margin-right:  2em;
+	margin-top: -15em;
+	background-position: -480px -440px;
+}
+div.cajaimg6 {
+	height: 210px;
+	width: 312px;
+	padding: 1px;
+	float: left;
+	border: 4px solid #cc0;
+	margin: 0px 0px 15px 15px;
+	background-color: white;
+	background-image: url(../imgs/spriteweb.png);
+	border-radius:  0px 20px 0px 0px;
+	margin-right:  2em;
+	margin-top: -15em;
+	background-position: -480px -600px;
+}
+	section.caja1 {
+		border: 2px solid gray;
+		padding: 4px;
+		height: 200px;
+		display: inline-block;
+		vertical-align: top;
+		width: 120px;
+		overflow: hidden;
+		background-image: url(../imgs/spriteweb.png);
+		margin: 0px;
+		padding: 10px;
+		background-position: -270px 600px;
+		}
+		section.caja8 {
+		border: 2px solid gray;
+		padding: 4px;
+		height: 200px;
+		display: inline-block;
+		float: right;
+		width: 120px;
+		overflow: hidden;
+		background-image: url(../imgs/spriteweb.png);
+		margin: 0px;
+		padding: 10px;
+		background-position: -270px 600px;
+		}
+		section.caja9 {
+		border: 2px solid gray;
+		padding: 10px;
+		margin: 0px;
+		height: 200px;
+		display: inline-block;
+		width: 120px;
+		vertical-align: top;
+		background-image: url(../imgs/spriteweb.png);
+		margin-bottom:  -10em;
+		margin-left:  27em;
+		background-position: -270px 600px;
+		}
+		div h3{
+			text-align: center;
+			background-color: gray;
+			padding: 5px;
+			color: #c00;
+		}
+	div.caja7 {
+	height: 210px;
+	width: 312px;
+	padding: 1px;
+	float: right;
+	border: 4px solid #009;
+	margin: 0px 0px 15px 15px;
+	background-color: white;
+	background-image: url(../imgs/spriteweb.png);
+	border-radius:  0px 20px 0px 0px;
+	margin-right:  33em;
+	margin-top: -15em;
+	background-position: -480px -810px;
+}
